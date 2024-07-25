@@ -104,7 +104,9 @@ To setup ansible ----
                         E) Map --> two and more key:value in one key:value
                                    eg: Address :{city:jalgaon,state:maharatra,country:indi}
 
-                        I) | pipe --> multiple line ,multiple statements                     
+                        I) | pipe --> multiple line ,multiple statements pass on on pipe 
+
+                                                         
                            
 
 
