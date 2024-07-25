@@ -143,7 +143,7 @@ Priority Based variable :-
                                       IP2 URL = Facebook
 
 
-   # Notes :  we are create the file of there                                   
+   # Notes :  we are create the file of there upers types .                                  
 
  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.                                     
 
