@@ -89,9 +89,8 @@ To setup ansible ----
                   3) key:pair
                   4) Data types in indention block 
                         
-                        A) string --> combination of characters 
-
-                        
+                        A) string --> combination of characters
+                          
                                    eg: name: bhupenpatil
                         B) numbers --> numerical digits 
 
