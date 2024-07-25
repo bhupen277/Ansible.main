@@ -87,7 +87,9 @@ To setup ansible ----
                   1) Modules (set of operation master -> nodes)
                   2) yml 
                   3) key:pair
-                  4) Data types in indention 
+                  4) Data types in indention block 
+                        
+                        A) 
 
        
                    
