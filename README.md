@@ -93,6 +93,7 @@ To setup ansible ----
                                   eg: name: bhupenpatil
 
                         B) numbers --> numerical digits 
+                                  eg: 
 
 
        
