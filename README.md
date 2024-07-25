@@ -91,7 +91,8 @@ To setup ansible ----
                         
                         A) string --> combination of characters 
 
-                                     eg:  
+                                     eg: name: bhupenpatil
+                                      
 
        
                    
