@@ -98,8 +98,9 @@ To setup ansible ----
                         C)bolean ---> true,false 
                                  eg: Indian:true
 
-                        d)list --> collection of statesment , words 
-                                 
+                        D)list --> collection of statesment , words 
+
+                           
 
 
 
