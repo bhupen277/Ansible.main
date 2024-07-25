@@ -93,7 +93,7 @@ To setup ansible ----
                                   eg: name: bhupenpatil
 
                         B) numbers --> numerical digits 
-                                  eg: 
+                                  eg: roll no : 20 , 
 
 
        
