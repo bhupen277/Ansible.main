@@ -99,7 +99,9 @@ To setup ansible ----
                                  eg: Indian:true
 
                         D)list --> collection of statesment , words 
-                                  eg: fruit: apple,mango,banana
+                                  eg: fruit: apple,mango,banana,kiwi
+
+                                  
                            
 
 
