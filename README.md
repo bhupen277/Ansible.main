@@ -92,7 +92,7 @@ To setup ansible ----
                         A) string --> combination of characters 
 
                                      eg: name: bhupenpatil
-                        B) numbers --> number              
+                        B) numbers --> numerical g              
 
        
                    
