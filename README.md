@@ -114,8 +114,8 @@ To setup ansible ----
 
 playbooks >>>
                 starts    
-               ----
-
+                                  ----
+                                  yml con   
 
 
 
