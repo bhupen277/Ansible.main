@@ -114,7 +114,7 @@ To setup ansible ----
 
 playbooks >>>
                 
-               starts                   ----
+                starts            -----------
                                   yml content
                 End                  ..........   
 
