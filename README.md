@@ -108,7 +108,7 @@ To setup ansible ----
                                     eg : Address | 
                                               hey ,hellow everyone
                                               how are you ?
-                                              we are going leran 
+                                              we are going leran devops 
 
 
                                                          
