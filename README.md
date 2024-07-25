@@ -95,7 +95,8 @@ To setup ansible ----
                         B) numbers --> numerical digits 
                                   eg: roll no:20 , date:25/7/24
 
-                        C)bolean ---> true,fale
+                        C)bolean ---> true,false 
+                                 eg: 
 
 
 
