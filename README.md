@@ -105,7 +105,10 @@ To setup ansible ----
                                    eg: Address :{city:jalgaon,state:maharatra,country:indi}
 
                         I) | pipe --> multiple line ,multiple statements pass on on pipe 
-                                    eg : Address 
+                                    eg : Address | 
+                                              hey
+
+
                                                          
                            
 
