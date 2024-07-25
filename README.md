@@ -98,7 +98,7 @@ To setup ansible ----
                         C)bolean ---> true,false 
                                  eg: Indian:true
 
-                        d)         
+                        d)list --         
 
 
 
