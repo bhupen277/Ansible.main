@@ -125,7 +125,7 @@ Priority Based variable :-
 
 1)
 
-(LI (It's high priority because it overwrite the all variable value that we wrote in playback)
+cLI (It's high priority because it overwrite the all variable value that we wrote in playback)
 
 Eg: ansible-playbook prompt-variable.yml-e URL = Jarvis.Com [Variable Name = Variable value]
 
