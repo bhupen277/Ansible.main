@@ -90,9 +90,8 @@ To setup ansible ----
                   4) Data types in indention block 
                         
                         A) string --> combination of characters
+                                  eg: name: bhupenpatil
 
-                                   eg: name: bhupenpatil
-                                   
                         B) numbers --> numerical digits 
 
 
