@@ -128,7 +128,7 @@ Priority Based variable :-
 
 2)Local (task that we Identifying in our home)
 
-3)File (we have to mention handle separate variable file & main configuration fil
+3)File (we have to mention handle separate variable file & main configuration file) 
 
 4) Prompt (if we want to pass any value in terminal so we con use prompt variable
 
