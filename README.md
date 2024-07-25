@@ -91,8 +91,10 @@ To setup ansible ----
                         
                         A) string --> combination of characters 
 
-                                     eg: name: bhupenpatil
-                        B) numbers --> numerical g              
+                        
+                                   eg: name: bhupenpatil
+                        B) numbers --> numerical digits 
+
 
        
                    
