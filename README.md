@@ -89,7 +89,7 @@ To setup ansible ----
                   3) key:pair
                   4) Data types in indention block 
                         
-                        A) string --> combination of cha
+                        A) string --> combination of charaters 
 
        
                    
