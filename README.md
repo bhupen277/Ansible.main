@@ -91,7 +91,7 @@ To setup ansible ----
                         
                         A) string --> combination of characters 
 
-                                     r 
+                                     eg:  
 
        
                    
