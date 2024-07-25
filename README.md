@@ -130,7 +130,7 @@ Priority Based variable :-
 
 3)File (we have to mention handle separate variable file & main configuration fil
 
-1)
+4)
 
 Prompt (if we want to pass any value in terminal so we con use prompt variable
 
