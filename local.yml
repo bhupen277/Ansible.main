@@ -1,0 +1,10 @@
+---
+- name: my playbook for local variables
+  hosts: all
+  tasks:
+    - name: Task one provided by Avez
+      debug:
+        msg: "{{URL}}"
+  vars:
+      URL: www.DevOps.com
+...
