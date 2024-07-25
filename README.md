@@ -121,6 +121,36 @@ playbooks >>>
 
 ..................................................................................................................
 
+Priority Based variable :-
+
+1)
+
+(LI (It's high priority because it overwrite the all variable value that we wrote in playback)
+
+Eg: ansible-playbook prompt-variable.yml-e URL = Jarvis.Com [Variable Name = Variable value]
+
+2)
+
+Local (task that we Identifying in our home)
+
+3)
+
+File (we have to mention handle separate variable file & main configuration fil
+
+1)
+
+Prompt (if we want to pass any value in terminal so we con use prompt variable
+
+5
+
+Global (have to define variable it, mention it, call it)
+
+5)
+
+Hast: If we wanna pass separate variable for separate hosts me then we define variable in hosts file / inventory file so in not a single variable present in playbook then only hosts file variable will works that's why it has a low priority /etc/ansible/hosts IP1 URL = Google
+
+IP2 URL = Facebook
+
 
                                                          
                            
