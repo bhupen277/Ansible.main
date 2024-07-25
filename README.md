@@ -107,7 +107,8 @@ To setup ansible ----
                         I) | pipe --> multiple line ,multiple statements pass on on pipe 
                                     eg : Address | 
                                               hey ,hellow everyone
-                                              how are you 
+                                              how are you ?
+                                              
 
 
                                                          
