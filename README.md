@@ -79,7 +79,7 @@ To setup ansible ----
       # ansible -m ping all -u ubuntu ------------- check the connection are done or not    the result is ---- "ping": "pong"
       #  asnible -i host all -m setup --inventory-file-/etc/ansible/hosts ------------------ inventery file are update 
       
-      
+      ................................................................................................................
 
 
        
