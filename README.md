@@ -137,7 +137,7 @@ Priority Based variable :-
 5) Host: If we wanna pass separate variable for separate hosts me then we define variable in hosts file / inventory file so in not a single variable present in playbook then only hosts file variable will works that's why it has a low priority /etc/ansible/hosts
 
                                       IP1 URL = Google
-                                      IP2 URL = Facebook
+                                      IP2 URL = Faceboo
 
 
                                                          
