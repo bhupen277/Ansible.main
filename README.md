@@ -101,7 +101,7 @@ To setup ansible ----
                         D)list --> collection of statesment , words 
                                   eg: fruit: apple,mango,banana,kiwi
 
-                                  
+                        E)           
                            
 
 
