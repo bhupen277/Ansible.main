@@ -96,7 +96,7 @@ To setup ansible ----
                                   eg: roll no:20 , date:25/7/24
 
                         C)bolean ---> true,false 
-                                 eg: In
+                                 eg: Indian
 
 
 
