@@ -85,7 +85,7 @@ To setup ansible ----
        #Ansible playbook
          
                   1) Modules (set of operation master -> nodes)
-                  
+                  2
 
        
                    
