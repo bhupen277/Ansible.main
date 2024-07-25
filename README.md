@@ -99,7 +99,7 @@ To setup ansible ----
                                  eg: Indian:true
 
                         D)list --> collection of statesment , words 
-
+                                  eg: fru
                            
 
 
