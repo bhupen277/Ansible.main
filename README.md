@@ -102,7 +102,9 @@ To setup ansible ----
                                   eg: fruit: apple,mango,banana,kiwi
 
                         E) Map --> two and more key:value in one key:value
-                                   eg: Address :{city:jalgaon,state:maharatra,country:india}          
+                                   eg: Address :{city:jalgaon,state:maharatra,country:indi}
+
+                        I                     
                            
 
 
