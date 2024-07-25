@@ -101,7 +101,8 @@ To setup ansible ----
                         D)list --> collection of statesment , words 
                                   eg: fruit: apple,mango,banana,kiwi
 
-                        E) Map --> two and more key:value in one key          
+                        E) Map --> two and more key:value in one key:value
+                                             
                            
 
 
