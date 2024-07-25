@@ -86,7 +86,7 @@ To setup ansible ----
          
                   1) Modules (set of operation master -> nodes)
                   2) yml 
-                  3
+                  3) key:pair
 
        
                    
