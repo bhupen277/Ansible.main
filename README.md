@@ -132,7 +132,7 @@ Priority Based variable :-
 
 4) Prompt (if we want to pass any value in terminal so we con use prompt variable)
 
-5
+5) 
 
 Global (have to define variable it, mention it, call it)
 
