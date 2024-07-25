@@ -1,3 +1,10 @@
-It's highest priority variable
+---
+- name: my playbook for local variables
+  hosts: all
+  vars_files: Ayush.yml
+  tasks:
+    - name: Task one provided by Ayush for cli varibale
+      debug:
+        msg: "{{URL}}"
 
-# ansible playbook -e url=bhupen
+...
