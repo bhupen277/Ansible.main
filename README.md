@@ -84,7 +84,7 @@ To setup ansible ----
 
        #Ansible playbook
          
-                  1) Moduls
+                  1) Modules 
 
        
                    
