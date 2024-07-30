@@ -1,0 +1,58 @@
+Step 1: Create 3 server with same private-key.
+
+Step 2: Create anisble-project repository in github.
+
+Step 3: Clone the repository in local, VS-code (here we prepare the whole, files, and config setup)
+
+Step 4: Install the ansible in master-server.
+
+#!/bin/bash
+sudo apt-get update -y
+sudo apt install software-properties-common -y
+sudo apt-add-repository ppa:ansible/ansible
+sudo apt update -y
+sudo apt install ansible -y
+sudo ansible --version
+
+Step 5: Clone repository in master-server. (private.pem key, ansible.cfg, hosts, playbooks should be in same repository)
+    - # sudo ansible-config init --disabled -t all > ansible.cfg
+    - copy ansible.cfg file --put--> remote_repo_folder
+    - copy the hosts file --put--> remote_repo_folder
+    - private-key.pem --put--> remote_repo_folder
+    - all files push it from ansible-master server to repository
+    # git add .
+    # git commit -m "adding all required ansible files in project-repo" 
+    # git push origin main
+
+Step 6: Do the following changes in repository from local, all final changes will push into the remote repository.
+    1. In hosts file, It will represent you all hosts, that we mentioned in playbooks.
+        # Ex 1: Ungrouped hosts, specify before any group headers:
+            172.31.8.124
+            172.31.6.245
+
+    2. ansible.cfg changes...
+        1. # (pathlist) Comma separated list of Ansible inventory sources (136, 137)
+           inventory=/home/ubuntu/stag-ansible/hosts
+
+        2. # (path) Option for connections using a certificate or key file to authenticate, rather than an agent or passwords, you can set the default value here to avoid re-specifying --private-key with every invocation. (208,209)
+           private_key_file=./hybrid.pem
+
+        3. # When blank it uses the connection plugin's default, normally the user currently executing Ansible. (220,221)
+           remote_user=ubuntu
+
+        4. # (boolean) Set this to "False" if you want to avoid host key checking by the underlying tools Ansible uses to connect to the host
+           host_key_checking=false
+
+        5. If required
+                [privilege_escalation]
+                    become=True
+                    become_method=sudo
+                    become_user=root
+                    become_ask_pass=False
+
+        6. Push all finalized changes
+
+Step 7: Check the all required config setup is working or not.
+        now, run all ansible commands from cloned repository
+
+        # ansible -i hosts all -u ubuntu --private-key=./hybrid.pem -m ping
