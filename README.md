@@ -56,6 +56,35 @@ To setup ansible ----
                    # vim /etc/ansible/hosts -----------------open the file off hosts --- add the pub-ip of node servers 
 
 
+                   
+    2. ansible.cfg changes...
+        1. # (pathlist) Comma separated list of Ansible inventory sources (136, 137)
+           inventory=/home/ubuntu/stag-ansible/hosts
+
+        2. # (path) Option for connections using a certificate or key file to authenticate, rather than an agent or passwords, you can set the default value here to avoid re-specifying --private-key with every invocation. (208,209)
+           private_key_file=./hybrid.pem
+
+        3. # When blank it uses the connection plugin's default, normally the user currently executing Ansible. (220,221)
+           remote_user=ubuntu
+
+        4. # (boolean) Set this to "False" if you want to avoid host key checking by the underlying tools Ansible uses to connect to the host
+           host_key_checking=false
+
+        5. If required
+                [privilege_escalation]
+                    become=True
+                    become_method=sudo
+                    become_user=root
+                    become_ask_pass=False
+
+        6. Push all finalized changes
+
+Step 7: Check the all required config setup is working or not.
+        now, run all ansible commands from cloned repository
+
+        # ansible -i hosts all -u ubuntu --private-key=./hybrid.pem -m ping
+
+
  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
     2) node server setup  set all servers of node 
